@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- TAILWINDCSS CDN -->
+		<link
+			href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+		<!-- FONT AWESOME CDN -->
+		<script
+			src="https://kit.fontawesome.com/b4d47226f1.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- VUEJS CDN -->
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<ul>
+				<li v-for="film in films">{{film.title}}</li>
+			</ul>
+		</div>
+
+		<script src="./main.js"></script>
+	</body>
+</html>

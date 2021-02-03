@@ -12,6 +12,6 @@ app.use(urlencoded({ extended: true }));
 
 app.use("/api", apiRouter);
 
-app.listen(3000, () => {
-	console.log("Servidor iniciado!");
+app.listen(3001, () => {
+	console.log("Servidor iniciado en el puerto 3000!");
 });
